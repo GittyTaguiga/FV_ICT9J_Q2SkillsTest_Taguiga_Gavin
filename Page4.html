@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2Drill2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-image:url('https://obmontessori.orangeapps.ph/landing/obmontessori/images/fairview.jpg');
+            background-size: cover;                   
+            background-repeat: no-repeat;
+         }
+
+         .navigation{
+            width: 50px;
+            height: 50px;
+        }
+
+        .Enrollment-Form{
+          background-color: aquamarine;
+        }
+
+      #Enrollment-Form{
+        background-color: rgb(22, 161, 207);
+      }
+
+      #fullname{
+        margin-inline-start: ;
+      }
+    </style>
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=""><img src="https://tse1.mm.bing.net/th/id/OIP.lSL6_G1_SgIKq2Ezmd6o6gHaIP?pid=Api&P=0&h=180" alt="" class="navigation"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Page2.html">Home</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="Page3.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Page4.html">Enroll</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Page5.html">Contact Us</a>
+        </li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br><br>
+
+<div class="container bg-success text-light">
+    <p class="fw-bold display-4">Enroll</p>
+    <br>
+</div>
+
+<div id="Enrollment-Form" class="container mb-3 mt-3" >
+		<h2>Student Information</h2>
+   
+		<form action = "">
+      <div class="row">
+        <label for = "name">Full Name:</label>
+			
+			<input type = "text" id = "fullname" name = "fullname" placeholder = "Type Here" class="form-control">
+
+      </div>
+
+			<br><br>
+       <div class="row">
+        <div class="col">
+          			<label for = "age">Birthdate:</label>
+                <br>
+                <input type = "date" id = "age" name = "age" placeholder = "dd/mm/yy" class="form-control">
+        </div>
+        <div class="col">
+              <label for = "gender">Gender:</label>
+              <br>
+              <select class="form-select">
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+        </div>
+        </div>
+
+
+			<br><br>
+    <h2>Contact Information</h2>
+    <form action = "">
+			<label for = "name">Email Address:</label>
+			<br>
+			<input type = "text" id = "name" name = "name" placeholder = "student@example.edu.ph" class="form-control">
+			<br><br>
+			<label for = "name">Contact Number:</label>
+			<br>
+			<input type = "text" id = "number" name = "number" placeholder = "Type your contact number here" class="form-control">
+			<br><br>
+    <h2>Other Information</h2>
+    <form action = "">
+			<label for = "name">Mode of Learning</label>
+			<br>
+			<input type = "checkbox" id = "music" name = "hobbies" value="music">
+			<label for = "music" class="btn tbn-xxx">Online</label>
+			<br><input type = "checkbox" id = "music" name = "hobbies" value="music">
+			<label for = "music"class="btn tbn-xxx">Onsite</label>
+			<br>
+      <br>
+      <br>
+      <input type = "checkbox" id = "music" name = "hobbies" value="music">
+			<label for = "music" class="btn tbn-xxx">I confirm that the information I have provided is TRUE.</label>
+			<br>
+			<input type ="submit" id = "Submit" name = "Submit" value = "Submit Form">
+			<input type ="reset" id = "reset" name ="reset" value = "Clear All">
+		</form>
+	</div>
+    
+</body>
+</html>
